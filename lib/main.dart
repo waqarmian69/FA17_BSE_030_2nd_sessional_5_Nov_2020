@@ -3,7 +3,7 @@ import 'package:fa17_bse_030_2nd_sessional/Navigation.dart';
 import 'package:fa17_bse_030_2nd_sessional/SplashScreen.dart';
 import 'dart:async';
 import 'Simple.dart';
-// import 'Hard.dart';
+import 'Hard.dart';
 void main() {
   runApp(SplashScreen());
 }
