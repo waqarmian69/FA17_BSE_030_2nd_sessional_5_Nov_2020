@@ -1,7 +1,6 @@
 import 'package:fa17_bse_030_2nd_sessional/main.dart';
 import 'package:flutter/material.dart';
-import 'package:fa17_bse_030_2nd_sessional/Navigation.dart';
-import 'package:fa17_bse_030_2nd_sessional/SplashScreen.dart';
+import 'package:splashscreen/splashscreen.dart';
 
 void main(){
   runApp(new MaterialApp(
@@ -22,7 +21,6 @@ class _MyAppState extends State<MyApp> {
 
     return Future.value(new Home());
   }
-
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(

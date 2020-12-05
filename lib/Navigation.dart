@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                 accountEmail: Text('waqarmian69@gmail.com'),
                 currentAccountPicture: CircleAvatar(
 
-                    backgroundImage: AssetImage('assets/image2.jpg')
+                    backgroundImage: AssetImage('assets/myphoto.jpg')
 
                 )
             ),
