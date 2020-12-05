@@ -18,8 +18,56 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
-        child: Text('M Waqar Aslam'),
+        child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Row(
+                children: [
+                  Expanded(
 
+                    child: Padding(
+                      padding: EdgeInsets.all(15.0),
+                      child: FlatButton(
+                        textColor: Colors.white,
+                        color: Colors.green,
+                        child: Text(
+                          'Simple',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20.0,
+                          ),
+                        ),
+                        onPressed: () {
+                          debugPrint('simple');
+                        },
+                      ),
+                    ),
+                  ),
+                  Expanded(
+
+                    child: Padding(
+                      padding: EdgeInsets.all(15.0),
+                      child: FlatButton(
+
+                        textColor: Colors.white,
+                        color: Colors.black,
+                        child: Text(
+                          'Hard',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20.0,
+                          ),
+                        ),
+                        onPressed: () {
+                          debugPrint('hard');
+                        },),
+                    ),
+                  ),
+                ],
+              ),]
+
+        ),
       ),
       drawer: Drawer(
         child: ListView(
